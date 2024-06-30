@@ -1,0 +1,7 @@
+{
+    "cmake.buildDirectory": "${workspaceFolder}/cmake-build-${buildKitVendor}-${buildType}",
+    "cmake.configureSettings": {
+        "CMAKE_CXX_FLAGS_INIT": "-stdlib=libc++",
+        "CMAKE_EXE_LINKER_FLAGS_INIT": "-fuse-ld=lld"
+    }
+}
